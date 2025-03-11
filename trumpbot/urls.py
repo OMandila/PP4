@@ -20,5 +20,6 @@ from core.views import core
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('core/', core, name='core')
+    path('error_handler/', core, name='error_handler'),
+    path('roles/', core, name='roles'),
 ]
