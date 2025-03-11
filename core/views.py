@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def error_handler (request):
-    return HttpResponse("Trumpbot!")
+    return HttpResponse("Trumpbot core!")
